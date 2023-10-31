@@ -1,0 +1,583 @@
+
+/*navbar and footer font*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+/*heading (title) font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/*primary subheading font*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*other subheadings font*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+/*table of contents font*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*body text font*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*navbar css codes start*/
+
+.navbar{
+    padding:10px;
+    background-color:rgb(48, 51, 42);
+    position:relative;
+    height: 45px;
+}
+
+.logo img{
+    border-radius: 50%;
+    float: left;
+    width: 3vw;
+    height: 6vh;
+}
+
+.linksgroup{
+    float: right;
+    padding:10px;
+}
+
+.links{
+    display: inline;
+    margin: 5px;
+}
+
+#home{
+    background-color: rgb(159, 164, 62);
+    padding:8px;
+    border-radius: 25px;
+}
+
+#introduction{
+    background-color: rgb(179, 202, 111);
+    padding:8px;
+    border-radius: 25px;
+}
+
+#discussion{
+    background-color: rgb(179, 202, 111);
+    padding:8px;
+    border-radius: 25px;
+}
+
+#references{
+    background-color: rgb(179, 202, 111);
+    padding:8px;
+    border-radius: 25px;
+}
+
+#about{
+    background-color: rgb(179, 202, 111);
+    padding:8px;
+    border-radius: 25px;
+}
+
+.linksgroup a{
+    margin: 5px;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+/*navbar css codes end*/
+
+/*footer css codes start*/
+
+.footer{
+    margin-top: -4px;
+    position: relative;
+    height: 8vh;
+    background-color: rgb(48, 51, 42);
+}
+
+.footer p{
+    color:white;
+    font-family: 'Noto Serif', serif;
+    float: left;
+    position: absolute;
+    font-size: 14px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.footer img{
+    height: 3vh;
+    width: 2vw;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.accounts{
+    float: right;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*footer css codes end*/
+
+/*home content css codes start*/
+
+.banner{
+    background-image: linear-gradient(to bottom right, rgb(67,97,45) , rgb(159, 164, 62));
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    height:585px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bannertext{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    right: 3%;
+}
+
+.bannertext h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    text-transform:uppercase;
+    font-size: 4em;
+}
+
+.bannertext p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:white;
+    font-family: 'Lora', serif;
+    text-transform:uppercase;
+    font-size: 2em;
+}
+
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color:rgb(159, 164, 62);
+    margin-top: 1em;
+    font-family: 'PT Serif', serif;
+    color: white;
+    font-size: 20px;
+}
+
+/*home content css codes end*/
+
+/*introduction content css codes start*/
+
+.introductioncontent img{
+    height: 40vh;
+    width: 30vw;
+    border: 3px solid black;
+    margin: 20px;
+    float: right;
+
+}
+
+.introductioncontent{
+    background-color: rgb(67,97,45);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    height:700px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.introductiontitle{
+    color:white;
+    padding-top:20px;
+    padding-left:90px;
+    font-family: 'Lora', serif;
+    font-size:3em;
+}
+
+.introductiontext{
+    text-indent: 50px;
+    color:white;
+    padding-top:20px;
+    padding-left:150px;
+    padding-right:25px;
+    font-size:large;
+    font-family: 'Merriweather', serif;
+}
+
+/*introduction content css codes end*/
+
+/*references content css codes start*/
+
+.referencescontent{
+    background-color: rgb(67,97,45);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    height:700px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.referencestitle{
+    color:white;
+    padding-top:20px;
+    padding-left:90px;
+    font-family: 'Lora', serif;
+    font-size:3em;
+}
+
+.referencestext{
+    font-family: 'Merriweather', serif;
+    color:white;
+    padding-top:20px;
+    padding-left:150px;
+    font-size:large;
+}
+
+.resource{
+    padding-left:50px;
+}
+
+/*references content css codes end*/
+
+/*about content css codes start*/
+
+.aboutcontent{
+    background-color: rgb(67,97,45);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    height:1100px;
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+
+.aboutmaincontent{
+    display:inline-block;
+    padding-left: 45px;
+}
+
+.aboutsidecontent{
+    float: left;
+    background-color:rgb(122, 125, 58);
+    position: relative;
+    width:25vw;
+    height:1100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#aboutsidecontentimage{
+    text-align: center;
+}
+
+.aboutsidecontent img{
+    height: 30vh;
+    width: 15vw;
+    border: 3px solid black;
+    margin-top: 35px;
+}
+
+#contactinfotitle{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+}
+
+#contactinfotext{
+    font-family: 'Merriweather', serif;
+    float:left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: large;
+}
+
+#contactinfotext span{
+    text-decoration: underline;
+}
+
+#aboutmetitle{
+    font-family: 'Lora', serif;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+#name{
+    font-family: 'PT Serif', serif;
+    font-size: 2.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#personalinfotitle{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#personalinfotext span{
+    text-decoration: underline;
+}
+
+#personalinfotext{
+    font-family: 'Merriweather', serif;
+    font-size: large;
+}
+
+#educationtitle{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#educationtext span{
+    text-decoration: underline;
+}
+
+#educationtext{
+    font-family: 'Merriweather', serif;
+    font-size: large;
+}
+
+#achievementstitle{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#achievementstext ul{
+    font-family: 'Merriweather', serif;
+    padding-left: 50px;
+    font-size: large;
+}
+
+#contributors{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contributorsimages img{
+    height: 30vh;
+    width: 15vw;
+    border: 3px solid black;
+    display: inline-block;
+    margin: 1rem;
+}
+
+#contributorsnames{
+    font-family: 'Merriweather', serif;
+    font-size: large;
+}
+
+#contributorsnames span{
+    padding-left: 65px;
+}
+
+#contributorsnames span span{
+    padding-left: 78px;
+}
+
+/*about content css codes end*/
+
+/*discussion content css codes start*/
+
+.discussion{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.discussioncontent{
+    background-color: rgb(67,97,45);
+    position: relative;
+    background-size: cover;
+    background-position: right;
+    width:100vw;
+    height:15000px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.discussionmaincontenttext{
+    display:inline-block;
+    padding-left: 25px;
+}
+
+#discussionparameters{
+    font-family: 'Lora', serif;
+    color:white;
+    padding-top:20px;
+    font-size:3em;
+}
+
+#discussionconclusion{
+    font-family: 'Lora', serif;
+    color:white;
+    padding-top:20px;
+    font-size:3em;
+}
+
+.discussionvariables{
+    font-family: 'PT Serif', serif;
+    text-indent: 50px;
+    color:white;
+    padding-top:20px;
+    font-size:30px;
+}
+
+.menubar{
+    float: left;
+    background-color:rgb(122, 125, 58);
+    position: relative;
+    text-align: left;
+    width:15vw;
+    height:15000px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menubartext{
+    font-family: 'Playfair Display', serif;
+    color:white;
+    display:inline-block;
+    padding-left:25px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.menubarvariables{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.menubarvariables a{
+    color:white;
+    text-decoration: none;
+}
+
+.menubarsections{
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.menubarsections a{
+    color:white;
+    text-decoration: none;
+}
+
+.menubarsections:hover{
+    transition: .4s;
+    font-size: x-large;
+    padding: 10px;
+}
+
+#variables{
+    padding: 10px;
+}
+
+#variables:hover{
+    transition: .4s;
+    font-size: x-large;
+    padding: 10px;
+}
+
+#menubartitle{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.images img{
+    height: 30vh;
+    width: 23vw;
+    border: 3px solid black;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.images_six img{
+    height: 60vh;
+}
+
+.images_seven img{
+    height: 60vh;
+}
+
+.images_nine img{
+    height: 60vh;
+}
+
+.images_ten img{
+    height: 60vh;
+}
+
+.images_twelve img{
+    height: 60vh;
+}
+
+.images_thirteen img{
+    height: 60vh;
+}
+
+#subheading{
+    text-indent: 55px;
+    color:white;
+    font-size:x-large;
+    font-family: 'PT Serif', serif;
+}
+
+.discussiontitle{
+    font-family: 'PT Serif', serif;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.discussiontext{
+    font-family: 'Merriweather', serif;
+    text-indent: 50px;
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:50px;
+    padding-right:50px;
+    font-size:large;
+    display: inline-block;
+}
+
+.conclusiontext{
+    font-family: 'Merriweather', serif;
+    text-indent: 50px;
+    color:white;
+    padding-top:20px;
+    padding-left:150px;
+    font-size:large;
+}
+
+
+/*discussion content css codes end*/
