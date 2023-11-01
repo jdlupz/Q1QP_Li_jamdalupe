@@ -26,65 +26,78 @@
 /*navbar css codes start*/
 
 .navbar{
-    padding:10px;
+    max-width: 100%;
+    padding:2vh;
     background-color:rgb(48, 51, 42);
     position:relative;
-    height: 45px;
+    height: 7vh;
 }
 
+/*css codes for the logo*/
 .logo img{
     border-radius: 50%;
     float: left;
-    width: 3vw;
-    height: 6vh;
+    width: 7vh;
+    height: 7vh;
 }
 
+/*css codes for the navigation buttons*/
 .linksgroup{
     float: right;
-    padding:10px;
+    padding:1.5vh;
 }
 
 .links{
     display: inline;
-    margin: 5px;
+    margin:0.5vh;
+}
+
+.linksgroup a{
+    margin: 1vw;
+    font-family: 'Noto Serif', serif;
+    font-size: large;
+    text-decoration: none;
+    color:white;
 }
 
 #home{
     background-color: rgb(159, 164, 62);
-    padding:8px;
+    padding:1.5vh;
     border-radius: 25px;
+    width: 7vh;
+    height: 7vh;
 }
 
 #introduction{
     background-color: rgb(179, 202, 111);
-    padding:8px;
+    padding:1.5vh;
     border-radius: 25px;
+    width: 7vh;
+    height: 7vh;
 }
 
 #discussion{
     background-color: rgb(179, 202, 111);
-    padding:8px;
+    padding:1.5vh;
     border-radius: 25px;
+    width: 7vh;
+    height: 7vh;
 }
 
 #references{
     background-color: rgb(179, 202, 111);
-    padding:8px;
+    padding:1.5vh;
     border-radius: 25px;
+    width: 7vh;
+    height: 7vh;
 }
 
 #about{
     background-color: rgb(179, 202, 111);
-    padding:8px;
+    padding:1.5vh;
     border-radius: 25px;
-}
-
-.linksgroup a{
-    margin: 5px;
-    font-family: 'Noto Serif', serif;
-    font-size: 20px;
-    text-decoration: none;
-    color:white;
+    width: 7vh;
+    height: 7vh;
 }
 
 /*navbar css codes end*/
@@ -92,29 +105,33 @@
 /*footer css codes start*/
 
 .footer{
-    margin-top: -4px;
+    max-width: 100%;
     position: relative;
-    height: 8vh;
+    height: 7vh;
     background-color: rgb(48, 51, 42);
 }
 
+/*css codes for the copyright*/
 .footer p{
     color:white;
     font-family: 'Noto Serif', serif;
     float: left;
-    position: absolute;
-    font-size: 14px;
-    margin-top: 18px;
-    margin-left: 10px;
+    position: relative;
+    font-size:xx-small;
+    margin-top: 2.5vh;
+    margin-left: 1vw;
 }
 
+/*css codes for the images/icons of the social media accounts and other miscellaneous links*/
 .footer img{
+    border-radius: 50%;
     height: 3vh;
     width: 2vw;
     display: inline-block;
     margin: 1rem;
 }
 
+/*css codes for the alignment of the images/icons*/
 .accounts{
     float: right;
     align-items: center;
@@ -133,61 +150,63 @@
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    overflow-x: hidden;
-    height:585px;
+    height:90vh;
     padding: 0px;
     margin: 0px;
 }
 
+/*contains the h1, p, and a*/
 .bannertext{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     position: absolute;
     top: 20%;
     left: 3%;
     right: 3%;
 }
 
+/*title*/
 .bannertext h1{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     color:white;
     font-family: 'Roboto Slab', serif;
     text-transform:uppercase;
-    font-size: 4em;
+    font-size:9vh;
 }
 
 .bannertext p{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     color:white;
     font-family: 'Lora', serif;
     text-transform:uppercase;
-    font-size: 2em;
+    font-size: 5vh;
 }
 
+/*button*/
 .banner a{
     text-decoration: none;
     display: inline-block;
     padding: 1em;
     background-color:rgb(159, 164, 62);
-    margin-top: 1em;
+    margin-top: 1vh;
     font-family: 'PT Serif', serif;
     color: white;
-    font-size: 20px;
+    font-size: 2.5vh;
 }
 
 /*home content css codes end*/
 
 /*introduction content css codes start*/
 
+/*css codes for the image in the introduction*/
 .introductioncontent img{
     height: 40vh;
     width: 30vw;
     border: 3px solid black;
-    margin: 20px;
+    margin: 1.5%;
     float: right;
-
 }
 
 .introductioncontent{
@@ -196,28 +215,30 @@
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    overflow-x: hidden;
-    height:700px;
-    padding: 0px;
-    margin: 0px;
+    height:120vh;
 }
 
+/*page title*/
 .introductiontitle{
     color:white;
-    padding-top:20px;
-    padding-left:90px;
+    padding-top:3vh;
+    padding-left:4vw;
     font-family: 'Lora', serif;
     font-size:3em;
 }
 
+/*statements in the introduction*/
 .introductiontext{
-    text-indent: 50px;
+    text-indent: 4vw;
     color:white;
-    padding-top:20px;
-    padding-left:150px;
-    padding-right:25px;
-    font-size:large;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    padding-left:9vw;
+    padding-right:2vw;
+    font-size:2.5vh;
     font-family: 'Merriweather', serif;
+    inline-size:87vw;
+    overflow-wrap: break-word;
 }
 
 /*introduction content css codes end*/
@@ -230,30 +251,33 @@
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    overflow-x: hidden;
-    height:700px;
-    padding: 0px;
-    margin: 0px;
+    height:100vh;
 }
 
+/*page title*/
 .referencestitle{
     color:white;
-    padding-top:20px;
-    padding-left:90px;
+    padding-top:3vh;
+    padding-left:4vw;
     font-family: 'Lora', serif;
     font-size:3em;
 }
 
+/*resources/references*/
 .referencestext{
+    text-align: left;
     font-family: 'Merriweather', serif;
     color:white;
-    padding-top:20px;
-    padding-left:150px;
-    font-size:large;
+    padding-top:2vh;
+    padding-left:9vw;
+    padding-right: 5vw;
+    font-size:2.5vh;
 }
 
-.resource{
-    padding-left:50px;
+/*indentation of the resources/references*/
+#sources{
+    text-indent: -5vw; 
+    padding-left: 5vw;
 }
 
 /*references content css codes end*/
@@ -264,216 +288,235 @@
     background-color: rgb(67,97,45);
     position: relative;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     max-width: 100%;
     overflow-x: hidden;
-    height:1100px;
-    padding: 0px;
-    margin: 0px;
+    height:120vh;
     color:white;
 }
 
+/*main content*/
 .aboutmaincontent{
     display:inline-block;
-    padding-left: 45px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    position: relative;
 }
 
+/*contains the personal information, educational background, and achievements*/
+.aboutmaincontenttext{
+    inline-size:60vw;
+    overflow-wrap: break-word;
+}
+
+/*sidebar*/
 .aboutsidecontent{
     float: left;
     background-color:rgb(122, 125, 58);
     position: relative;
-    width:25vw;
-    height:1100px;
-    padding: 0px;
-    margin: 0px;
+    width:28vw;
+    height:120vh;
 }
 
+/*alignment of the image in the sidebar*/
 #aboutsidecontentimage{
     text-align: center;
 }
 
+/*css codes for the image in the sidebar*/
 .aboutsidecontent img{
     height: 30vh;
     width: 15vw;
     border: 3px solid black;
-    margin-top: 35px;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
 }
 
+/*"Contact Me"*/
 #contactinfotitle{
     font-family: 'PT Serif', serif;
     text-align: center;
-    padding: 10px;
+    padding: 1vh;
     font-size: 2em;
 }
 
+/*contact information*/
 #contactinfotext{
     font-family: 'Merriweather', serif;
     float:left;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: large;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2.5vh;
+    inline-size:24vw;
+    overflow-wrap: break-word;
 }
 
+/*underline the kind of information it is*/
 #contactinfotext span{
     text-decoration: underline;
 }
 
+/*page title = "About Me"*/
 #aboutmetitle{
     font-family: 'Lora', serif;
     font-size: 3em;
-    padding-top: 20px;
+    padding-top: 3vh;
 }
 
+/*name = "Jade Anne Marie J. Dalupe"*/
 #name{
     font-family: 'PT Serif', serif;
     font-size: 2.5em;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
+/*"Personal Information"*/
 #personalinfotitle{
     font-family: 'PT Serif', serif;
     font-size: 2em;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 2vh;
 }
 
+/*underline the kind of information it is*/
 #personalinfotext span{
     text-decoration: underline;
 }
 
+/*personal information*/
 #personalinfotext{
     font-family: 'Merriweather', serif;
-    font-size: large;
+    font-size: 2.5vh;
 }
 
+/*"Educational Background"*/
 #educationtitle{
     font-family: 'PT Serif', serif;
     font-size: 2em;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
 }
 
+/*underline the kind of information it is*/
 #educationtext span{
     text-decoration: underline;
 }
 
+/*educational background*/
 #educationtext{
     font-family: 'Merriweather', serif;
-    font-size: large;
+    font-size: 2.5vh;
 }
 
+/*"Achievements"*/
 #achievementstitle{
     font-family: 'PT Serif', serif;
     font-size: 2em;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
 }
 
+/*list of achievements*/
 #achievementstext ul{
     font-family: 'Merriweather', serif;
-    padding-left: 50px;
-    font-size: large;
-}
-
-#contributors{
-    font-family: 'PT Serif', serif;
-    font-size: 2em;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.contributorsimages img{
-    height: 30vh;
-    width: 15vw;
-    border: 3px solid black;
-    display: inline-block;
-    margin: 1rem;
-}
-
-#contributorsnames{
-    font-family: 'Merriweather', serif;
-    font-size: large;
-}
-
-#contributorsnames span{
-    padding-left: 65px;
-}
-
-#contributorsnames span span{
-    padding-left: 78px;
+    padding-left: 4vw;
+    font-size: 2.5vh;
 }
 
 /*about content css codes end*/
 
 /*discussion content css codes start*/
 
+/*main div*/
 .discussion{
     max-width: 100%;
     overflow-x: hidden;
 }
 
+/*contains all the contents in the discussion div*/
 .discussioncontent{
     background-color: rgb(67,97,45);
     position: relative;
     background-size: cover;
     background-position: right;
-    width:100vw;
-    height:15000px;
-    padding: 0px;
-    margin: 0px;
+    height:1500vh;
 }
 
-.discussionmaincontenttext{
+/*main content*/
+.discussionmaincontent{
     display:inline-block;
-    padding-left: 25px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    inline-size:75vw;
+    overflow-wrap: break-word;
 }
 
+/*"Parameters"*/
 #discussionparameters{
     font-family: 'Lora', serif;
     color:white;
-    padding-top:20px;
+    padding-top:3vh;
     font-size:3em;
 }
 
-#discussionconclusion{
+/*"Conclusion"*/
+#discussionconclusiontitle{
     font-family: 'Lora', serif;
     color:white;
-    padding-top:20px;
+    padding-top:3vh;
     font-size:3em;
 }
 
+/*contains the variables and its graphs*/
 .discussionvariables{
     font-family: 'PT Serif', serif;
-    text-indent: 50px;
+    text-indent: 3vw;
     color:white;
-    padding-top:20px;
-    font-size:30px;
+    padding-top:3vh;
+    font-size:5vh;
 }
 
+/*contains the texts in the conclusion*/
+.conclusiontext{
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    text-indent: 5vw;
+    color:white;
+    padding-top:3vh;
+    padding-left:5vw;
+    font-size:2.5vh;
+    inline-size:65vw;
+}
+
+/*discussion menubar*/
 .menubar{
     float: left;
     background-color:rgb(122, 125, 58);
     position: relative;
     text-align: left;
     width:15vw;
-    height:15000px;
-    padding: 0px;
-    margin: 0px;
+    height:1500vh;
 }
 
+/*contains the texts in the menubar*/
 .menubartext{
     font-family: 'Playfair Display', serif;
     color:white;
     display:inline-block;
-    padding-left:25px;
-    padding-top: 25px;
-    font-size: 20px;
+    padding-left:1vw;
+    padding-right:1vw;
+    padding-top: 3vh;
+    inline-size:15vw;
+    overflow-wrap: break-word;
 }
 
+/*links to the parts of the corresponding variables: Variable 1, Variable 2, Variable 3, etc.*/
 .menubarvariables{
-    padding-left: 50px;
-    padding-bottom: 20px;
+    padding-left: 3vw;
+    padding-bottom: 1.5vw;
+    font-size: 2vh;
 }
 
 .menubarvariables a{
@@ -481,9 +524,11 @@
     text-decoration: none;
 }
 
+/*links to the parts of the corresponding sections: Parameters, Conclusion*/
 .menubarsections{
-    padding-left: 25px;
-    padding-bottom: 20px;
+    padding-left: 1.5vw;
+    padding-bottom: 1.5vw;
+    font-size: 2.5vh;
 }
 
 .menubarsections a{
@@ -497,87 +542,50 @@
     padding: 10px;
 }
 
-#variables{
-    padding: 10px;
-}
-
 #variables:hover{
     transition: .4s;
     font-size: x-large;
     padding: 10px;
 }
 
+/*"TABLE OF CONTENTS:"*/
 #menubartitle{
-    font-size: 25px;
-    padding-bottom: 20px;
+    font-size: 3.5vh;
+    padding-bottom: 3vh;
 }
 
+/*css codes for the graphs*/
 .images img{
     height: 30vh;
-    width: 23vw;
+    width: 20vw;
     border: 3px solid black;
     display: inline-block;
     margin: 1rem;
 }
 
+/*adjusts the height of some graphs*/
 .images_six img{
-    height: 60vh;
+    height: 40vh;
 }
 
 .images_seven img{
-    height: 60vh;
+    height: 40vh;
 }
 
 .images_nine img{
-    height: 60vh;
+    height: 40vh;
 }
 
 .images_ten img{
-    height: 60vh;
+    height: 40vh;
 }
 
 .images_twelve img{
-    height: 60vh;
+    height: 40vh;
 }
 
 .images_thirteen img{
-    height: 60vh;
+    height: 40vh;
 }
-
-#subheading{
-    text-indent: 55px;
-    color:white;
-    font-size:x-large;
-    font-family: 'PT Serif', serif;
-}
-
-.discussiontitle{
-    font-family: 'PT Serif', serif;
-    text-decoration: underline;
-    font-style: italic;
-    font-size: 30px;
-}
-
-.discussiontext{
-    font-family: 'Merriweather', serif;
-    text-indent: 50px;
-    color:white;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:50px;
-    padding-right:50px;
-    font-size:large;
-    display: inline-block;
-}
-
-.conclusiontext{
-    font-family: 'Merriweather', serif;
-    text-indent: 50px;
-    color:white;
-    padding-top:20px;
-    padding-left:150px;
-    font-size:large;
-}
-
 
 /*discussion content css codes end*/
