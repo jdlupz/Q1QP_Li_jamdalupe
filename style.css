@@ -215,7 +215,7 @@
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    height:120vh;
+    height:100vh;
 }
 
 /*page title*/
@@ -291,7 +291,7 @@
     background-position: right;
     max-width: 100%;
     overflow-x: hidden;
-    height:120vh;
+    height:100vh;
     color:white;
 }
 
@@ -315,7 +315,7 @@
     background-color:rgb(122, 125, 58);
     position: relative;
     width:28vw;
-    height:120vh;
+    height:100vh;
 }
 
 /*alignment of the image in the sidebar*/
@@ -441,7 +441,7 @@
     position: relative;
     background-size: cover;
     background-position: right;
-    height:1500vh;
+    height:850vh;
 }
 
 /*main content*/
@@ -497,7 +497,7 @@
     position: relative;
     text-align: left;
     width:15vw;
-    height:1500vh;
+    height:850vh;
 }
 
 /*contains the texts in the menubar*/
